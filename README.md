@@ -18,13 +18,18 @@
 
 ## 📌 Overview
 
-File carving from binary streams — extract
+OCarveX is a binary file carver and forensic extractor that pulls embedded files out of raw binary streams by magic signature. It can reconstruct fragmented data, perform deep forensic analysis and generate carving reports, using only the Python standard library. It runs interactively from a menu or with a configurable output directory.
 
 ---
 
 ## ✨ Features
 
-- OCarveX v2.0 - Binary file carver and forensic extractor: carve, hex, strings, IOCs, batch extraction
+- Signature-based carving of embedded files from binary streams
+- Fragmented-data reconstruction
+- Deep forensic analysis of carved objects
+- Carving report generation
+- Configurable output directory
+- No external dependencies — standard library only
 
 ---
 
@@ -39,6 +44,8 @@ File carving from binary streams — extract
 
 ```bash
 ./OCarveX
+./OCarveX -o ./carved/
+./OCarveX --help
 ```
 
 ---
